@@ -1,7 +1,22 @@
 GITHUBTARBALL
+  remote: Hacquebord-Buckles/puppet-anvil
+  specs:
+    anvil (1.0.1)
+
+GITHUBTARBALL
+  remote: boxelly/puppet-bitcasa
+  specs:
+    bitcasa (2.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
     boxen (3.3.4)
+
+GITHUBTARBALL
+  remote: boxen/puppet-dashlane
+  specs:
+    dashlane (1.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
@@ -37,6 +52,11 @@ GITHUBTARBALL
   remote: boxen/puppet-go
   specs:
     go (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-handbrake
+  specs:
+    handbrake (1.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-homebrew
@@ -89,6 +109,11 @@ GITHUBTARBALL
     pkgconfig (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-pow
+  specs:
+    pow (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-repository
   specs:
     repository (2.2.0)
@@ -97,6 +122,16 @@ GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
     ruby (6.7.2)
+
+GITHUBTARBALL
+  remote: boxen/puppet-skype
+  specs:
+    skype (1.0.6)
+
+GITHUBTARBALL
+  remote: boxen/puppet-slate
+  specs:
+    slate (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-sudo
@@ -129,7 +164,10 @@ GITHUBTARBALL
     stdlib (4.1.0)
 
 DEPENDENCIES
+  anvil (= 1.0.1)
+  bitcasa (= 2.0.0)
   boxen (= 3.3.4)
+  dashlane (= 1.0.1)
   dnsmasq (= 1.0.0)
   dropbox (= 1.1.2)
   firefox (= 1.1.4)
@@ -137,6 +175,7 @@ DEPENDENCIES
   gcc (= 2.0.1)
   git (= 1.2.5)
   go (= 1.0.0)
+  handbrake (= 1.0.1)
   homebrew (= 1.5.1)
   hub (= 1.0.3)
   inifile (= 1.0.0)
@@ -148,8 +187,11 @@ DEPENDENCIES
   packer (= 1.1.0)
   phantomjs (= 2.0.2)
   pkgconfig (= 1.0.0)
+  pow (= 1.0.0)
   repository (= 2.2.0)
   ruby (= 6.7.2)
+  skype (= 1.0.6)
+  slate (= 1.0.0)
   stdlib (= 4.1.0)
   sudo (= 1.0.0)
   vagrant (= 3.0.0)
