@@ -2,8 +2,8 @@ class people::tomohiro {
   include java
   include virtualbox
   include packer
-  include vagrant
   include firefox
+  include vagrant
   include iterm2::stable
   include dropbox
   include dashlane
@@ -13,6 +13,7 @@ class people::tomohiro {
   include slate
   include bitcasa
   include anvil
+  include bowtie
 
   $packages = [
     'youtube-dl',
@@ -32,7 +33,7 @@ class people::tomohiro {
     'heroku-toolbelt',
     'jq',
     'markdown',
-    'ifstat'
+    'ifstat',
   ]
 
   package { $packages:

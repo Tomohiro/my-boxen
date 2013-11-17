@@ -4,6 +4,11 @@ GITHUBTARBALL
     anvil (1.0.1)
 
 GITHUBTARBALL
+  remote: Tomohiro/puppet-bowtie
+  specs:
+    bowtie (1.0.0)
+
+GITHUBTARBALL
   remote: boxelly/puppet-bitcasa
   specs:
     bitcasa (2.0.0)
@@ -31,7 +36,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-firefox
   specs:
-    firefox (1.1.4)
+    firefox (1.1.5)
 
 GITHUBTARBALL
   remote: boxen/puppet-foreman
@@ -166,11 +171,12 @@ GITHUBTARBALL
 DEPENDENCIES
   anvil (= 1.0.1)
   bitcasa (= 2.0.0)
+  bowtie (= 1.0.0)
   boxen (= 3.3.4)
   dashlane (= 1.0.1)
   dnsmasq (= 1.0.0)
   dropbox (= 1.1.2)
-  firefox (= 1.1.4)
+  firefox (= 1.1.5)
   foreman (= 1.0.0)
   gcc (= 2.0.1)
   git (= 1.2.5)
