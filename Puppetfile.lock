@@ -4,14 +4,29 @@ GITHUBTARBALL
     anvil (1.0.1)
 
 GITHUBTARBALL
+  remote: Tomohiro/puppet-aquaskk
+  specs:
+    aquaskk (1.0.0)
+
+GITHUBTARBALL
   remote: Tomohiro/puppet-bowtie
   specs:
     bowtie (1.0.0)
 
 GITHUBTARBALL
+  remote: Tomohiro/puppet-postgresapp
+  specs:
+    postgresapp (1.0.1)
+
+GITHUBTARBALL
   remote: boxelly/puppet-bitcasa
   specs:
     bitcasa (2.0.0)
+
+GITHUBTARBALL
+  remote: boxelly/puppet-limechat
+  specs:
+    limechat (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-boxen
@@ -170,6 +185,7 @@ GITHUBTARBALL
 
 DEPENDENCIES
   anvil (= 1.0.1)
+  aquaskk (= 1.0.0)
   bitcasa (= 2.0.0)
   bowtie (= 1.0.0)
   boxen (= 3.3.4)
@@ -187,12 +203,14 @@ DEPENDENCIES
   inifile (= 1.0.0)
   iterm2 (= 1.0.4)
   java (= 1.1.0)
+  limechat (= 1.0.0)
   nginx (= 1.4.2)
   nodejs (= 3.3.0)
   openssl (= 1.0.0)
   packer (= 1.1.0)
   phantomjs (= 2.0.2)
   pkgconfig (= 1.0.0)
+  postgresapp (= 1.0.1)
   pow (= 1.0.0)
   repository (= 2.2.0)
   ruby (= 6.7.2)
