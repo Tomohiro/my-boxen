@@ -16,11 +16,11 @@ class people::tomohiro {
   include limechat
 
   class { 'firefox':
-    version => '25.0.1'
+    version => '26.0'
   }
 
   class { 'packer':
-    version => '0.4.0'
+    version => '0.5.1'
   }
 
   homebrew::tap { 'homebrew/dupes': }
@@ -45,7 +45,9 @@ class people::tomohiro {
     'markdown',
     'ifstat',
     'fortune',
-    'zsh-completions'
+    'zsh-completions',
+    'tig',
+    'osxutils'
   ]
 
   package { $tools:
@@ -65,5 +67,12 @@ class people::tomohiro {
 
   package { 'screen':
     install_options => '--HEAD'
+  }
+
+  # Workaround
+  # readlineの接続先直す | iii ThreeTreesLight
+  # http://threetreeslight.com/post/58786169382/readline
+  exec{ 'replace-readline-of-ruby' :
+    command => "find /opt/boxen/rbenv -name readline.bundle -exec install_name_tool -change /usr/lib/libedit.3.dylib `find /opt/boxen -name libreadline.dylib` {} \\;"
   }
 }
