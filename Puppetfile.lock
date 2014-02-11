@@ -4,11 +4,6 @@ GITHUBTARBALL
     anvil (1.0.1)
 
 GITHUBTARBALL
-  remote: Tomohiro/puppet-aquaskk
-  specs:
-    aquaskk (1.0.0)
-
-GITHUBTARBALL
   remote: Tomohiro/puppet-bowtie
   specs:
     bowtie (1.0.0)
@@ -114,11 +109,6 @@ GITHUBTARBALL
     openssl (1.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-packer
-  specs:
-    packer (1.1.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-phantomjs
   specs:
     phantomjs (2.0.2)
@@ -159,11 +149,6 @@ GITHUBTARBALL
     sudo (1.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-vagrant
-  specs:
-    vagrant (3.0.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-virtualbox
   specs:
     virtualbox (1.0.9)
@@ -185,7 +170,6 @@ GITHUBTARBALL
 
 DEPENDENCIES
   anvil (= 1.0.1)
-  aquaskk (= 1.0.0)
   bitcasa (= 2.0.0)
   bowtie (= 1.0.0)
   boxen (= 3.3.4)
@@ -207,7 +191,6 @@ DEPENDENCIES
   nginx (= 1.4.2)
   nodejs (= 3.3.0)
   openssl (= 1.0.0)
-  packer (= 1.1.0)
   phantomjs (= 2.0.2)
   pkgconfig (= 1.0.0)
   postgresapp (= 1.0.1)
@@ -218,7 +201,6 @@ DEPENDENCIES
   slate (= 1.0.0)
   stdlib (= 4.1.0)
   sudo (= 1.0.0)
-  vagrant (= 3.0.0)
   virtualbox (= 1.0.9)
   xquartz (= 1.1.0)
 
