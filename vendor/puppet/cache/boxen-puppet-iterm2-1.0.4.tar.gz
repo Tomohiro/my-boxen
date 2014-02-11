@@ -1,4 +1,0 @@
-{
-  "message": "Must specify two-factor authentication OTP code.",
-  "documentation_url": "http://developer.github.com/v3/auth#working-with-two-factor-authentication"
-}
