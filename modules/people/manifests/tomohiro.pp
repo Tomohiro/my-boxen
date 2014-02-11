@@ -1,7 +1,6 @@
 class people::tomohiro {
   include java
   include virtualbox
-  include vagrant
   include iterm2::dev
   include dropbox
   include dashlane
@@ -17,10 +16,6 @@ class people::tomohiro {
 
   class { 'firefox':
     version => '26.0'
-  }
-
-  class { 'packer':
-    version => '0.5.1'
   }
 
   homebrew::tap { 'homebrew/dupes': }
@@ -47,7 +42,8 @@ class people::tomohiro {
     'fortune',
     'zsh-completions',
     'tig',
-    'osxutils'
+    'osxutils',
+    'boot2docker'
   ]
 
   package { $tools:
