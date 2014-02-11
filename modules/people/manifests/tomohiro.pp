@@ -1,5 +1,4 @@
 class people::tomohiro {
-  include java
   include virtualbox
   include iterm2::dev
   include dropbox
@@ -15,7 +14,7 @@ class people::tomohiro {
   include limechat
 
   class { 'firefox':
-    version => '26.0'
+    version => '27.0'
   }
 
   homebrew::tap { 'homebrew/dupes': }
