@@ -70,4 +70,8 @@ class people::tomohiro {
   exec{ 'replace-readline-of-ruby' :
     command => "find /opt/boxen/rbenv -name readline.bundle -exec install_name_tool -change /usr/lib/libedit.3.dylib `find /opt/boxen -name libreadline.dylib` {} \\;"
   }
+
+  osx_chsh { $::luser:
+    shell => '/bin/zsh';
+  }
 }
