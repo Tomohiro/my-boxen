@@ -14,10 +14,14 @@ class people::tomohiro {
   include limechat
 
   class { 'firefox':
-    version => '27.0'
+    version => '27.0.1'
   }
 
-  homebrew::tap { 'homebrew/dupes': }
+  $taps = [
+    'homebrew/dupes'
+  ]
+
+  homebrew::tap { $taps: }
 
   $tools = [
     'youtube-dl',
