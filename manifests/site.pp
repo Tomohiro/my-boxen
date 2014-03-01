@@ -62,7 +62,7 @@ node default {
   include nodejs::v0_10
 
   # default ruby versions
-  include ruby::2_0_0
+  ruby::version { '2.1.0': }
 
   # common, useful packages
   package {
