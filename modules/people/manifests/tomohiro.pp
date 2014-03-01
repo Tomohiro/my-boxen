@@ -18,7 +18,8 @@ class people::tomohiro {
   }
 
   $taps = [
-    'homebrew/dupes'
+    'homebrew/dupes',
+    'thoughtbot/formulae'
   ]
 
   homebrew::tap { $taps: }
@@ -46,7 +47,8 @@ class people::tomohiro {
     'zsh-completions',
     'tig',
     'osxutils',
-    'boot2docker'
+    'boot2docker',
+    'gitsh'
   ]
 
   package { $tools:
